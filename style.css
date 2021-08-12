@@ -1,0 +1,55 @@
+nav {
+
+}
+
+/* hero image */
+#hero {
+  background-image: url(https://picsum.photos/900/800?grayscale);
+  position: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+/* book-box section */
+ul {
+  list-style: none;  
+  text-align: center;
+}
+
+#book-bar {
+  border: red solid 3px;
+  padding: 20px 0 0 0;
+  background-color: rgba(255,255,255,0.5);
+  margin: 80px 0 80px 0;
+}
+
+/* book-boxes */
+#book-bar li {
+  border: black dashed 2px;
+  margin: 5px;
+  width: 100px;
+  height: 130px;
+  text-align: center;
+  display: inline-block;
+  content: url(https://picsum.photos/200/300);
+}
+
+/* art-bar section */
+
+#art-bar {
+  border: red solid 3px;
+  padding: 20px 0 0 0;
+  background-color: rgba(255,255,255,0.5);
+}
+
+#art-bar li {
+  border: black dashed 2px;
+  margin: 5px;
+  width: 240px;
+  height: 180px;
+  text-align: center;
+  display: inline-block;
+  content: url(https://picsum.photos/400/300);
+}
